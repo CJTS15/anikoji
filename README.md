@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎌 AniKōji
 
-## Getting Started
+A small curated anime/manga directory. built with **Next.js 14**, **Tailwind CSS**, **ShadCN UI**, and powered by the [Jikan API](https://jikan.moe/). View anime or manga details, search your favorites, and toggle light/dark themes with a clean responsive UI.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔍 **Search** anime and manga by title
+- 🖼️ View cards with images, title, episodes, type, year, and synopsis
+- 🔄 Pagination with Framer Motion animations
+- 🌓 Light/Dark/Auto theme toggle
+- 🪪 Detail view in **Dialog** or full page
+- 📱 Mobile-friendly and responsive
+- 🎥 Seasonal anime and 📚 top manga toggles
+- 🏷️ Badge overlays for Anime or Manga
+- 🏢 Fetch and display **producers** and **studios**
+- 📄 SEO-friendly using Next.js app router
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Preview
 
-## Learn More
+> ![Preview Screenshot](public/screenshot.png)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧱 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: [Next.js 14](https://nextjs.org)
+- **UI Kit**: [ShadCN UI](https://ui.shadcn.com)
+- **Styling**: [Tailwind CSS] (https://tailwindcss.com/)
+- **Animation**: Framer Motion
+- **Data**: [Jikan API](https://jikan.moe)
+- **Icons**: [Lucide React] (https://lucide.dev/)
+- **Image Optimization**: Next.js `<Image />`
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
