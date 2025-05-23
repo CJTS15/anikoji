@@ -29,10 +29,10 @@ A small curated anime/manga directory. built with **Next.js 14**, **Tailwind CSS
 
 - **Framework**: [Next.js 14](https://nextjs.org)
 - **UI Kit**: [ShadCN UI](https://ui.shadcn.com)
-- **Styling**: [Tailwind CSS] (https://tailwindcss.com/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Animation**: Framer Motion
 - **Data**: [Jikan API](https://jikan.moe)
-- **Icons**: [Lucide React] (https://lucide.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 - **Image Optimization**: Next.js `<Image />`
 
 ---
